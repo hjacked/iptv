@@ -222,6 +222,7 @@ fun KinsFolkTVApp(playlistUrl: String, context: Context) {
                             .focusRequester(focusRequester)
                             .focusable()
                             .onFocusChanged { focusState -> isFocused = focusState.isFocused },
+                        // FIXED: Forces the Material theme engine to color the row instantly as the D-Pad lands on it
                         colors = ButtonDefaults.textButtonColors(
                             containerColor = if (isFocused) Color(0xFF262626) else Color.Transparent,
                             contentColor = if (isFocused) Color(0xFFFFD500) else Color.White
