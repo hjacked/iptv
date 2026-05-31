@@ -193,7 +193,7 @@ fun KinsFolkTVApp(playlistUrl: String, context: Context) {
                 state = listState, // CRITICAL TV FIX 3: Bound listState tracker directly here
                 modifier = Modifier
                     .fillMaxHeight()
-                    .width(250.dp)
+                    .width(320.dp) // FIXED: Widened to comfortably hold channel logos + text next to each other
                     .background(Color(0xCC000000))
                     .padding(top = 12.dp)
             ) {
@@ -228,7 +228,35 @@ fun KinsFolkTVApp(playlistUrl: String, context: Context) {
                         ),
                         shape = androidx.compose.foundation.shape.RoundedCornerShape(6.dp)
                     ) {
-                        Text(channel.name, fontSize = 20.sp)
+                        // MERGED ITEM 3: Horizontal Row layout placing the logo and text side-by-side
+                        Row(
+                            modifier = Modifier.fillMaxWidth().padding(vertical = 2.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            if (!channel.logoUrl.isNullOrBlank()) {
+                                coil.compose.AsyncImage(
+                                    model = channel.logoUrl,
+                                    contentDescription = "Logo",
+                                    modifier = Modifier
+                                        .size(36.dp)
+                                        .background(Color(0x22FFFFFF), shape = androidx.compose.foundation.shape.RoundedCornerShape(4.dp))
+                                        .padding(2.dp),
+                                    contentScale = androidx.compose.ui.layout.ContentScale.Fit
+                                )
+                                Spacer(modifier = Modifier.width(12.dp))
+                            } else {
+                                Box(
+                                    modifier = Modifier
+                                        .size(36.dp)
+                                        .background(Color(0x44FFFFFF), shape = androidx.compose.foundation.shape.RoundedCornerShape(4.dp)),
+                                    contentAlignment = androidx.compose.ui.Alignment.Center
+                                ) {
+                                    Text("TV", fontSize = 12.sp, color = Color.LightGray)
+                                }
+                                Spacer(modifier = Modifier.width(12.dp))
+                            }
+                            Text(text = channel.name, fontSize = 18.sp, maxLines = 1)
+                        }
                     }
                 }
             }
@@ -254,6 +282,7 @@ fun KinsFolkTVApp(playlistUrl: String, context: Context) {
         }
     }
 }
+
 
 
 // RE-ADDED VISUAL ANCHOR: Safe baseline video renderer component sitting correctly at bottom
