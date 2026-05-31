@@ -1,63 +1,6 @@
-#EXTM3U billed-msg="M3U PLAYLIST BY: JOELEHUERTA"
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz"
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/gkluDe9.png" channel-number="1" group-title="Cignal", One PH
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,scfp0k+KTWyeM3ovHFuNYA==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/oneph_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/BUVWBm2.png" group-title="Cignal", Kapatid Channel
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,BF0QMYD2RWKx23yTJ0HDUg==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/kapatid_hd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Wv0K5Yc.png" channel-number="2" group-title="Cignal", BuKO 
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,0nPAhfKrSiSOe/w3UikAfQ==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_buko_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://nocookie.net" group-title="Cignal", SARI-SARI
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,CmqzYS9DQzWqbolQFtjNLQ==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_sarisari/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://nocookie.net" group-title="Cignal", PTV4
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,caEwqFG5SEu0cUHIlm+0ow==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_ptv4_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/bpRiu54.png" group-title="Cignal", One News
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,LmqdfB9LTIqNM8ex8KXpJA==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/onenews_hd1/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://nocookie.net" group-title="Cignal", RPTV
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,GRf0yvI2Tm2bFQcyaoXq1g==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cnn_rptv_prod_hd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://nocookie.net" group-title="Cignal", TV5
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,JhUSnvLIRqm71DpkHAcD7w==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/tv5_hd/default1/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://nocookie.net" group-title="Cignal", A2Z
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,P22KLBt+TJ+NUqfhsMb5PQ==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_a2z/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcxvjeBIthYiEaZHeVeYpDicIlOTdv3G6lzoal3VM2xVzWu_J7XxM657oz&s=10" group-title="Cignal", Bilyonaryo Channel
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,In/68JvsSoieDgmIcE1Sog==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/bilyonaryoch/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/russel/images/e/e3/TvN_Movies_Pinoy_Logo_2023.png" group-title="Cignal", tvN Movies Pinoy
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,LlP42KXpS8qPmh4WzmffMw==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tvnmovie/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/61fHpnW.png" group-title="Cignal", PBO
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,3L2qpmstQYi9+X+fDKXoMA==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/pbo_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://nocookie.net" group-title="Cignal", Viva Cinema
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,B6qBO/LBR3SASO3ZMLdzbg==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/viva_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/6mNCite.png" group-title="Cignal", TMC
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,lnAdKX0SQeSS1Bw5djHYVw==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_tagalogmovie/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/3RVA5mV.png" group-title="Cignal", Tap Movies 
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,ccveArWVRou3c5giLhreCQ==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tapmovies_hd1/default/index.mpd
-
+#EXTINF:-1 group-title="DRM Test", ClearKey Test Stream (1080p)
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=nrWg4F96wE2S3o99,00000000000000000000000000000000:00000000000000000000000000000000
+https://akamaihd.net
