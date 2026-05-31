@@ -2,61 +2,36 @@
 #EXTM3U url-tvg="https://epgshare01.online, https://epgshare01.online"
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://imgur.com" channel-number="1" group-title="Cignal", One PH
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,scfp0k+KTWyeM3ovHFuNYA==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=PASTE_NEW_HEX_KEYID_HERE:PASTE_NEW_HEX_KEY_HERE
 https://akamaized.net
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://imgur.com" group-title="Cignal", Kapatid Channel
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,BF0QMYD2RWKx23yTJ0HDUg==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=PASTE_NEW_HEX_KEYID_HERE:PASTE_NEW_HEX_KEY_HERE
 https://akamaized.net
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://imgur.com" channel-number="2" group-title="Cignal", BuKO 
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,0nPAhfKrSiSOe/w3UikAfQ==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=PASTE_NEW_HEX_KEYID_HERE:PASTE_NEW_HEX_KEY_HERE
 https://akamaized.net
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://nocookie.net" group-title="Cignal", SARI-SARI
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,CmqzYS9DQzWqbolQFtjNLQ==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=PASTE_NEW_HEX_KEYID_HERE:PASTE_NEW_HEX_KEY_HERE
 https://akamaized.net
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://nocookie.net" group-title="Cignal", PTV4
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,caEwqFG5SEu0cUHIlm+0ow==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://akamaized.net
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://imgur.com" group-title="Cignal", One News
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,LmqdfB9LTIqNM8ex8KXpJA==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://akamaized.net
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://nocookie.net" group-title="Cignal", RPTV
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,GRf0yvI2Tm2bFQcyaoXq1g==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://akamaized.net
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://nocookie.net" group-title="Cignal", TV5
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,JhUSnvLIRqm71DpkHAcD7w==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://akamaized.net
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://nocookie.net" group-title="Cignal", A2Z
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,P22KLBt+TJ+NUqfhsMb5PQ==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://akamaized.net
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://gstatic.com" group-title="Cignal", Bilyonaryo Channel
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,In/68JvsSoieDgmIcE1Sog==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://akamaized.net
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://nocookie.net" group-title="Cignal", tvN Movies Pinoy
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,LlP42KXpS8qPmh4WzmffMw==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://akamaized.net
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://imgur.com" group-title="Cignal", PBO
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,3L2qpmstQYi9+X+fDKXoMA==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://akamaized.net
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://nocookie.net" group-title="Cignal", Viva Cinema
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,B6qBO/LBR3SASO3ZMLdzbg==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://akamaized.net
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://imgur.com" group-title="Cignal", TMC
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,lnAdKX0SQeSS1Bw5djHYVw==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
-https://akamaized.net
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://imgur.com" group-title="Cignal", Tap Movies 
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="data:text/plain;base64,ccveArWVRou3c5giLhreCQ==",KEYFORMAT="org.w3.clearkey",KEYFORMATVERSIONS="1"
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=PASTE_NEW_HEX_KEYID_HERE:PASTE_NEW_HEX_KEY_HERE
 https://akamaized.net
